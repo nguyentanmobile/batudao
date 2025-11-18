@@ -1,0 +1,34 @@
+{
+  "name": "batudao",
+  "version": "1.0.0",
+  "description": "appliction ci/cd to firebase",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/index.mjs",
+    "start": "node ./src/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyentanmobile/batudao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/nguyentanmobile/batudao/issues"
+  },
+  "homepage": "https://github.com/nguyentanmobile/batudao#readme",
+  "dependencies": {
+    "bscript": "^0.1.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "passport": "^0.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
